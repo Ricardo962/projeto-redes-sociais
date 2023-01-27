@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+   
+}
+main{
+    height: 100vh;
+    background-image: url(imagens/fundo-madeira2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+}
+section.notebook{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 650px;
+    height: 377px;
+    background: url(imagens/notebook-tela.png);
+}
+iframe#tela{
+    position: relative;
+    top: 16.1px;
+    left: 81px;
+    width: 487px;
+    height: 280px;
+}
+section .botoes{
+    height: 60px;
+    padding: 15px;
+    border-radius: 50%;
+}
+section a{
+    text-decoration: none;
+}
+section.redes-socias{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
